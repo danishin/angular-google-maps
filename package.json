@@ -5,7 +5,7 @@
   "description": "Angular 2+ components for Google Maps",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SebastianM/angular-google-maps.git"
+    "url": "https://github.com/danishin/angular-google-maps.git"
   },
   "keywords": [
     "angular",
@@ -42,15 +42,15 @@
     "apidocs:snazzy": "compodoc -p packages/snazzy-info-window/tsconfig.compodoc.json --name @agm/snazzy-info-window  --output docs/public/api-docs/agm-snazzy-info-window/ --disablePrivateOrInternalSupport --hideGenerator --disableCoverage",
     "apidocs:jsmarkerclusterer": "compodoc -p packages/js-marker-clusterer/tsconfig.compodoc.json --name @agm/js-marker-clusterer  --output docs/public/api-docs/js-marker-clusterer/ --disablePrivateOrInternalSupport --hideGenerator --disableCoverage"
   },
-  "author": "Sebastian Müller <info@sebastian-mueller.net>",
+  "author": "Daniel Shin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SebastianM/angular-google-maps/issues"
+    "url": "https://github.com/danishin/angular-google-maps/issues"
   },
   "homepage": "https://angular-maps.com",
   "peerDependencies": {
-    "@angular/common": "^4.0.0 || ^2.0.0",
-    "@angular/core": "^4.0.0 || ^2.0.0"
+    "@angular/common": "^5.0.0",
+    "@angular/core": "^5.0.0"
   },
   "devDependencies": {
     "@angular/animations": "^4.0.0",
@@ -100,8 +100,8 @@
   "jspm": {
     "jspmNodeConversion": false,
     "dependencies": {
-      "@angular/common": "^4.0.0 || ^2.0.0",
-      "@angular/core": "^4.0.0 || ^2.0.0"
+      "@angular/common": "^5.0.0",
+      "@angular/core": "^5.0.0"
     }
   }
 }
